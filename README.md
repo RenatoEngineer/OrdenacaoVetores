@@ -42,3 +42,9 @@
 
 [Exemplo](./Exemplos/select_sort.c)
 
+#### .:: Shell Sort ::.
+<p></p>
+<p><strong>O Algoritmo Shell Sort trabalha com o outro algoritmo já conhecido Insert Sort, mas fazendo uma separação em grupos menores e ordenando estes grupos menores, ordenando assim todo o vetor.</strong></p>
+
+[Exemplo](./Exemplos/shell_sort.c)
+
