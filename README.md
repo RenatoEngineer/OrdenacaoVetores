@@ -36,3 +36,9 @@
 
 [Exemplo](./Exemplos/quick_sort.c)
 
+#### .:: Select Sort ::.
+<p></p>
+<p><strong>Conhecido também como Selection Sort, é um algoritmo de ordenação básica, onde sempre o menor valor será passado para o início do vetor (primeira posição), e depois o segundo menor valor será passado para a segunda posição e assim sucessivamente, ordenando desta forma os valores do vetor.</strong></p>
+
+[Exemplo](./Exemplos/select_sort.c)
+
