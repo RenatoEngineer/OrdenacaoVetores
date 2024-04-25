@@ -16,3 +16,10 @@
 
 [Exemplo](./Exemplos/heap_sort.c)
 
+#### .:: Insert Sort ::.
+<p></p>
+<p><strong>Conhecido tambem como Insertion Sort, e um algoritmo simples, mas eficiente quando usado em vetores pequenos. Basicamente ele percorre um vetor da esquerda para a direita, e conforme avança, vai alinhando os valores da sua esquerda.</strong></p>
+
+[Exemplo](./Exemplos/insert_sort.c)
+
+
