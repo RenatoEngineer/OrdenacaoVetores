@@ -8,3 +8,11 @@
 <p><strong>Não é recomendado para programas que precisam de velocidade.</strong></p>
 
 [Exemplo](./Exemplos/bubble_sort.c)
+
+#### .:: Heap Sort ::.
+<p></p>
+<p><strong>Conhecido também como Ordenação usando Heap, utiliza um heap (vetor que simula uma arvore binaria completa - com exceção do último nível) para realizar a ordenação.</strong></p>
+<p><strong>Todo elemento "pai" do vetor possui dois elementos como "filhos".</strong></p>
+
+[Exemplo](./Exemplos/heap_sort.c)
+
