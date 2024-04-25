@@ -1,5 +1,17 @@
 # .:: Ordenação de Vetores em C ::.
 
+#### .:: Select Sort ::.
+<p></p>
+<p><strong>Conhecido também como Selection Sort, é um algoritmo de ordenação básica, onde sempre o menor valor será passado para o início do vetor (primeira posição), e depois o segundo menor valor será passado para a segunda posição e assim sucessivamente, ordenando desta forma os valores do vetor.</strong></p>
+
+[Exemplo](./Exemplos/select_sort.c)
+
+#### .:: Insert Sort ::.
+<p></p>
+<p><strong>Conhecido tambem como Insertion Sort, e um algoritmo simples, mas eficiente quando usado em vetores pequenos. Basicamente ele percorre um vetor da esquerda para a direita, e conforme avança, vai alinhando os valores da sua esquerda.</strong></p>
+
+[Exemplo](./Exemplos/insert_sort.c)
+
 #### .:: Bubble Sort ::.
 <p></p>
 <p><strong>Conhecido também como algoritmo de troca, ou algoritmo de bolha, é um algoritmo de ordenação simples, sendo que a ideia é percorrer o vetor várias vezes, e a cada vez, 'flutuar' o maior elemento da sequência.</strong></p>
@@ -9,18 +21,17 @@
 
 [Exemplo](./Exemplos/bubble_sort.c)
 
-#### .:: Heap Sort ::.
+#### .:: Shell Sort ::.
 <p></p>
-<p><strong>Conhecido também como Ordenação usando Heap, utiliza um heap (vetor que simula uma arvore binaria completa - com exceção do último nível) para realizar a ordenação.</strong></p>
-<p><strong>Todo elemento "pai" do vetor possui dois elementos como "filhos".</strong></p>
+<p><strong>O Algoritmo Shell Sort trabalha com o outro algoritmo já conhecido Insert Sort, mas fazendo uma separação em grupos menores e ordenando estes grupos menores, ordenando assim todo o vetor.</strong></p>
 
-[Exemplo](./Exemplos/heap_sort.c)
+[Exemplo](./Exemplos/shell_sort.c)
 
-#### .:: Insert Sort ::.
+#### .:: Quick Sort ::.
 <p></p>
-<p><strong>Conhecido tambem como Insertion Sort, e um algoritmo simples, mas eficiente quando usado em vetores pequenos. Basicamente ele percorre um vetor da esquerda para a direita, e conforme avança, vai alinhando os valores da sua esquerda.</strong></p>
+<p><strong>Assim como o Shell Sort, o Quick Sort ordena vetores separando o mesmo em grupos e ordenando estes grupos conforme vão varrendo o vetor.</strong></p>
 
-[Exemplo](./Exemplos/insert_sort.c)
+[Exemplo](./Exemplos/quick_sort.c)
 
 #### .:: Merge Sort ::.
 <p></p>
@@ -30,21 +41,10 @@
 
 [Exemplo](./Exemplos/merge_sort.c)
 
-#### .:: Quick Sort ::.
+#### .:: Heap Sort ::.
 <p></p>
-<p><strong>Assim como o Shell Sort, o Quick Sort ordena vetores separando o mesmo em grupos e ordenando estes grupos conforme vão varrendo o vetor.</strong></p>
+<p><strong>Conhecido também como Ordenação usando Heap, utiliza um heap (vetor que simula uma arvore binaria completa - com exceção do último nível) para realizar a ordenação.</strong></p>
+<p><strong>Todo elemento "pai" do vetor possui dois elementos como "filhos".</strong></p>
 
-[Exemplo](./Exemplos/quick_sort.c)
-
-#### .:: Select Sort ::.
-<p></p>
-<p><strong>Conhecido também como Selection Sort, é um algoritmo de ordenação básica, onde sempre o menor valor será passado para o início do vetor (primeira posição), e depois o segundo menor valor será passado para a segunda posição e assim sucessivamente, ordenando desta forma os valores do vetor.</strong></p>
-
-[Exemplo](./Exemplos/select_sort.c)
-
-#### .:: Shell Sort ::.
-<p></p>
-<p><strong>O Algoritmo Shell Sort trabalha com o outro algoritmo já conhecido Insert Sort, mas fazendo uma separação em grupos menores e ordenando estes grupos menores, ordenando assim todo o vetor.</strong></p>
-
-[Exemplo](./Exemplos/shell_sort.c)
+[Exemplo](./Exemplos/heap_sort.c)
 
