@@ -30,3 +30,9 @@
 
 [Exemplo](./Exemplos/merge_sort.c)
 
+#### .:: Quick Sort ::.
+<p></p>
+<p><strong>Assim como o Shell Sort, o Quick Sort ordena vetores separando o mesmo em grupos e ordenando estes grupos conforme vão varrendo o vetor.</strong></p>
+
+[Exemplo](./Exemplos/quick_sort.c)
+
