@@ -22,4 +22,11 @@
 
 [Exemplo](./Exemplos/insert_sort.c)
 
+#### .:: Merge Sort ::.
+<p></p>
+<p><strong>Conhecido também como algoritmo de Ordenação por Mistura, utiliza a ideia básica de Dividir e Conquistar.</strong></p>
+<p><strong>Ele divide, recursivamente, o vetor até que cada subconjunto possua 1 elemento, fazendo a combinação de 2 subconjuntos de forma a obter 1 conjunto maior e ordenado.</strong></p>
+<p><strong>Este processo se repete até que exista apenas 1 conjunto.</strong></p>
+
+[Exemplo](./Exemplos/merge_sort.c)
 
